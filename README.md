@@ -56,8 +56,8 @@ Code 3:
 This program uses threads to open several "checkout lanes" rather than downloading files one at a time (like waiting in a single checkout line). A separate file is downloaded concurrently by each thread. This works particularly well since other downloads can continue to function while one waits for data from the internet. As a result, you will receive all of your data considerably more quickly, particularly if you are downloading from multiple sources.
 
 output 3:
-Concurrent File Downloader
-=========================
+Concurrent file downloader
+===========
 
 How would you like to input URLs?
 1. Enter URLs manually
